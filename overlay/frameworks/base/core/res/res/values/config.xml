@@ -121,7 +121,7 @@
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
 
     <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
+    <bool name="config_needCustomFODView">true</bool>
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
