@@ -32,10 +32,13 @@ PRODUCT_MODEL := Realme X7 Max 5G
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "alps/vnd_oppo6893/oppo6893:11/RP1A.200720.011/mp2tc16sppr5V1:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX3031 \
     PRODUCT_NAME=RMX3031 \
-    PRIVATE_BUILD_DESC="sys_oplus_mssi_64_cn-user-11-RP1A.200720.011-mp2tc16sppr5V1-release-keys"
+    PRIVATE_BUILD_DESC="raven-user 12 SD1A.210817.036 7805805 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
