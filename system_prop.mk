@@ -55,3 +55,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts \
     ro.crypto.volume.metadata.method=dm-default-key \
     ro.crypto.volume.options=::v2
+
+# Cutout (POSP)
+ro.potato.has_cutout=true
