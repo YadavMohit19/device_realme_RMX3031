@@ -93,7 +93,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-aosp
+    $(DEVICE_PATH)/overlay-corvus
 
 # Permissions
 PRODUCT_COPY_FILES += \
